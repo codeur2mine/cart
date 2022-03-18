@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>ach'Afrik</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="achAfriK.css">
+    <link rel="icon" type="image/png" sizes="32x32" href="pp.png" />
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous"> -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Sansita+Swashed:wght@900&display=swap"
+        rel="stylesheet">
+    <script src="https://kit.fontawesome.com/64d095f523.js" crossorigin="anonymous"></script>
+
+
+    <script defer src="products.js"></script>
+    <script>
+        function like() {
+            var click = document.querySelector(".fa-heart").style
+            console.log(click);
+            if (click.cssText == "color: red;") {
+                click.cssText = "color: white"
+            }
+            else
+                click.cssText = "color: red"
+           
+        }
+    </script>
+
+</head>
+
+<body>
+    <header>
+        <nav class="first_nav">
+            <div class="logo">
+                <a href="#"><img src="p.png" class="zoom" alt="Logo achAfriK" title="Achafrik"></a>
+            </div>
+            <div class="form">
+                <form>
+                    <label for="name"></label>
+
+
+                    <input type="text" id="search" placeholder="Cherchez un produit, une marque ou une catégorie">
+                    <a href="#"><button id="button">RECHERCHER</button></a>
+                </form>
+            </div>
+            <ul id="list">
+
+                <li><a href="#services">Services</a></li>
+                <li><a href="#articles">Articles</a></li>
+                <li><a href="#aide">Aide</a></li>
+                <li class="buy"><a href="#"> Panier
+                        <ul class="dropdown">
+                            <li id="love"><a href="#">Liste D'envies</a></li>
+                            <li><a href="#">Précommande</a></li>
+                            <li><a href="#">Par Carte</a></li>
+                            <li><a href="#">En Espèce</a></li>
+                        </ul>
+                    </a></li>
+
+            </ul>
+
+
+        </nav>
+
+    </header>
+    <div class="container">
+
+        <main class="first_main">
+            <!-- <div class="qtite">
+                <button class="moins">-</button>
+                <span class="prd_qtite">0</span>
+                <button class="plus">+</button>
+            -->
+
+
+
+  
+
+            <!-- <div class="tête">
+              <img src="https://www.francetvinfo.fr/pictures/vpne1s2YOHw_Diz7iEP3BSKBKlI/752x423/2020/01/30/phpp9I4w3.jpg" alt="Culture Africaine" title="Culture Africaine">
+              <hr>
+            </div> -->
+
+
+        </main>
+
+    </div>
+
+</body>
+
+
+</html>

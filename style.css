@@ -1,0 +1,58 @@
+body{
+    background: linear-gradient(green,orange);
+}
+
+
+.pi{
+    text-align: justify;
+    background-color: wheat;
+    border: 5px double rgb(0, 89, 255);
+    border-radius: 15px / 20px;
+}
+.Gras:hover{
+    color: orange;
+   text-decoration:underline ;
+  
+ 
+   
+}
+#climat:hover,#terre:hover,#langues:hover,#colonie:hover{
+    text-decoration: underline;
+color:green;
+
+}
+
+
+#copy{
+    color: grey;
+    font-size: x-small;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+
+}
+textarea{
+    width: 300px;
+    height: 100px;
+}
+
+.btn{
+    height: 70px;
+    width: 70px ;
+    background: rgb(255, 255, 255);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    cursor: pointer; 
+    
+
+}
+
+.icone{
+    width: 50px;
+        
+}

@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>EaT</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&family=Work+Sans:wght@100;200&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="Site.css">
+    <link rel="icon" type="image/png" sizes="32x32" href="téléchargement.ico" />
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+
+</head>
+
+<body>
+    <header>
+        <nav class="header">
+            <div class="dessus">
+                <a href="#">
+                    <h5>👉 L'éducation avant tout! 👈</h5>
+                </a>
+            </div>
+
+            <div class="after">
+                <a href="#">
+                    <img src="data:image/jpeg;base64,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"
+                        alt="Stratégie" class="img"> </a>
+                <ul class="list">
+
+                    <li><a href="#">Admissions</a></li>
+                    <li><a href="#">Formations</a></li>
+                    <li><a href="#">Recherche</a>
+                    </li>
+                    <li><a href="#">Bourses</a></li>
+                    <li><a href="#">Vie dans le campus</a></li>
+                    <li><a href="#">Partenariat</a></li>
+                </ul>
+            </div>
+            <div class="log">
+                <a href="#">
+                    <button type="button" class="white">Log in</button></a>
+
+                <a href="#"><button type="button" class="warning">Sign up for free</button></a>
+            </div>
+
+        </nav>
+        <br><br><br> <br><br><br>
+    </header>
+
+
+    <div class="container">
+        <br><br>
+        <main class="main_nav">
+            <div class="first">
+                <a href="#" class="qa"><img
+                        src="https://media-exp1.licdn.com/dms/image/C4D16AQFUVtHgqZxDQA/profile-displaybackgroundimage-shrink_200_800/0/1616947947673?e=1648684800&v=beta&t=hLTuFHQF4hBS2edJRKR9sFWzdFOeL-_yuyp6crGJ318"
+                        alt="Uizard - The design tool for everyone, powered by AI | Product Hunt" width="1000"
+                        height="250"></a>
+                <h3 class="premier">AVENIR COMMUN</h3>
+                <p class="little">Voulez-vous une "Autre" Côte d'Ivoire? <br> J'y aspire de toute mon âme. Il nous faut
+                    une
+                    nouvelle classe de dirigeants. <br> Préparons-nous à diriger la Côte d'Ivoire en 2030. En quoi
+                    consiste
+                    le Projet Horizons Stratégiques ?</p>
+                <a href="#"><button type="button" class="warn">Rejoins la Communauté</button></a>
+            </div>
+            <div class="second">ABIDJAN 2025</div>
+    </div>
+    <div class="logo">
+        <div class="first-logo"><img
+                src="https://media-exp1.licdn.com/dms/image/C4D12AQFVldhcK9d8GQ/article-cover_image-shrink_720_1280/0/1598190870595?e=1650499200&v=beta&t=h7adeFP2z6uNOCNK2AdXpLQXgDu7GwnczARzSv9JtHA"
+                alt="IBM" class="logf"></div>
+    </div>
+    <div class="container">
+
+        <div class="third">
+            <div class="ancre"> <br> <br>
+                <a href="#pseudo">
+                    <h1>INSCRIPTION EN LIGNE</h1>
+                </a>
+            </div>
+
+            <!-- </div>
+        <div class="load">
+            <div class="deo">
+                <div class="last">
+                    <img src="https://media-exp1.licdn.com/dms/image/C5612AQF-KS_Osms_HA/article-cover_image-shrink_600_2000/0/1639503679337?e=1651104000&v=beta&t=J21gSWJt8AXvL_2z4PgpN2kfayqrzKhhUOUUdOsKes0"
+                        alt="2025" class="why">
+
+                </div>
+            </div>
+        </div> -->
+            <div class="snd_deo">
+                <div class="part_one">
+                    <div class="monster">
+                        <div class="inset">
+                            <img src="https://www.linfodrome.com/media/article/images/thumb/69014-maxresdefault-2_xl.webp"
+                                alt="MOMO" title="MOMO">
+                        </div>
+                    </div>
+                </div>
+                <div class="part_two">
+
+                    <h1>Dr SYLVAIN N'GUESSAN</h1>
+                    <p>Spécialiste en Etudes Stratégiques, CEO Institut de Stratégies d'Abidjan</p>
+                    <br>
+                    <p>-Etudes politiques, de défense et sécurité (plus de 10 ans)<br>
+                        -Analyse du risque pays, SWOT & PESTEL (plus de 10 ans) <br>
+                        -Etudes prospectives, géopolitiques, Sécurité économique (plus de 05 ans) <br>
+                        -Prévention, gestion des conflits et consolidation de la paix (plus de 06 années consécutives.
+                    </p>
+
+                </div>
+
+            </div>
+
+
+        </div>
+        <div class="form">
+            <form>
+
+                <p>
+                    <label for="pseudo"></label>
+                    Remplissez un Pseudo
+                    <input type="text" name="pseudo" id="pseudo" placeholder="Mohamed Sidi" required> <br> <br>
+                    <label for="pass"></label>
+                    Tapez un Mot de passe
+                    <input type="password" name="pass" id="pass"> <br><br>
+                    <label for="Email"></label>
+                    Remplissez votre Email
+                    <input type="email" name="Email" id="Email" required placeholder="a@a.com"><br> <br>
+                    <label for="naissance"></label>
+                    Entrez votre date de naissance
+                    <input type="date" name="date" id="date"><br><br>
+                    <label for="téléphone"></label>
+                    Tapez un numéro de tél
+                    <input type="téléphone" name="téléphone" id="téléphone" required placeholder="777 777 777 ">
+                    Choisissez votre pays
+                    <select name="pays" id="pays">
+                        <optgroup label="Afrique">
+                            <option value="Côte-d'Ivoire">Côte-d'Ivoire</option>
+                            <option value="Maroc">Maroc</option>
+                            <option value="Mali">Mali</option>
+                            <option value="Ghana">Ghana</option>
+                            <option value="Mauritanie">Mauritanie</option>
+                            <option value="Guinée">Guinée</option>
+                            <option value="Egypte">Egypte</option>
+                        </optgroup>
+                        <optgroup label="Amérique">
+                            <option value="Etats-Unis">Etats-Unis</option>
+                            <option value="Brésil">Brésil</option>
+                            <option value="Mexique">Mexique</option>
+                            <option value="Canada">Canada</option>
+                        </optgroup>
+                        <optgroup label="Europe">
+                            <option value="France">France</option>
+                            <option value="Suisse">Suisse</option>
+                        </optgroup>
+                        <optgroup label="Asie">
+                            <option value="Chine">Chine</option>
+                            <option value="Japon">Japon</option>
+                            <option value="Inde">Inde</option>
+                        </optgroup>
+
+                    </select>
+
+                    <br> <br>
+                    <label for="Commentaires"></label>
+                    Avez-vous un commentaire?
+                    <label for="oui"></label>
+                    OUI
+                    <input type="radio" name="choix" id="choix">
+                    <label for="non"></label>
+                    NON
+                    <input type="radio" name="choix" id="choix">
+                    <textarea name="commentaires" id="commentaires"
+                        placeholder="Insérez un commentaire contenant moins de 20 lignes"></textarea> <br><br>
+                    <input type="submit" value="Envoyer"><i class="fas fa-thumbs-up"></i>
+
+                </p>
+            </form>
+
+        </div>
+        </main>
+    </div>
+    <footer class="final">
+        <div class="end">
+            <div class="case">
+                <a href="https://fr.linkedin.com/pulse/moi-%C3%A9lu-pr%C3%A9sident-en-2025-dr-sylvain-n-guessan?trk=pulse-article_more-articles_related-content-card"
+                    target="blank">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="link">
+                        <!--! Font Awesome Pro 6.0.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
+                        <path
+                            d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z" />
+                    </svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="link">
+                        <!--! Font Awesome Pro 6.0.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
+                        <path
+                            d="M504 256C504 119 393 8 256 8S8 119 8 256c0 123.78 90.69 226.38 209.25 245V327.69h-63V256h63v-54.64c0-62.15 37-96.48 93.67-96.48 27.14 0 55.52 4.84 55.52 4.84v61h-31.28c-30.8 0-40.41 19.12-40.41 38.73V256h68.78l-11 71.69h-57.78V501C413.31 482.38 504 379.78 504 256z" />
+                    </svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="link
+                    ">
+                        <!--! Font Awesome Pro 6.0.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
+                        <path
+                            d="M380.9 97.1C339 55.1 283.2 32 223.9 32c-122.4 0-222 99.6-222 222 0 39.1 10.2 77.3 29.6 111L0 480l117.7-30.9c32.4 17.7 68.9 27 106.1 27h.1c122.3 0 224.1-99.6 224.1-222 0-59.3-25.2-115-67.1-157zm-157 341.6c-33.2 0-65.7-8.9-94-25.7l-6.7-4-69.8 18.3L72 359.2l-4.4-7c-18.5-29.4-28.2-63.3-28.2-98.2 0-101.7 82.8-184.5 184.6-184.5 49.3 0 95.6 19.2 130.4 54.1 34.8 34.9 56.2 81.2 56.1 130.5 0 101.8-84.9 184.6-186.6 184.6zm101.2-138.2c-5.5-2.8-32.8-16.2-37.9-18-5.1-1.9-8.8-2.8-12.5 2.8-3.7 5.6-14.3 18-17.6 21.8-3.2 3.7-6.5 4.2-12 1.4-32.6-16.3-54-29.1-75.5-66-5.7-9.8 5.7-9.1 16.3-30.3 1.8-3.7.9-6.9-.5-9.7-1.4-2.8-12.5-30.1-17.1-41.2-4.5-10.8-9.1-9.3-12.5-9.5-3.2-.2-6.9-.2-10.6-.2-3.7 0-9.7 1.4-14.8 6.9-5.1 5.6-19.4 19-19.4 46.3 0 27.3 19.9 53.7 22.6 57.4 2.8 3.7 39.1 59.7 94.8 83.8 35.2 15.2 49 16.5 66.6 13.9 10.7-1.6 32.8-13.4 37.4-26.4 4.6-13 4.6-24.1 3.2-26.4-1.3-2.5-5-3.9-10.5-6.6z" />
+
+                    </svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="link">
+                        <!--! Font Awesome Pro 6.0.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
+                        <path
+                            d="M224,202.66A53.34,53.34,0,1,0,277.36,256,53.38,53.38,0,0,0,224,202.66Zm124.71-41a54,54,0,0,0-30.41-30.41c-21-8.29-71-6.43-94.3-6.43s-73.25-1.93-94.31,6.43a54,54,0,0,0-30.41,30.41c-8.28,21-6.43,71.05-6.43,94.33S91,329.26,99.32,350.33a54,54,0,0,0,30.41,30.41c21,8.29,71,6.43,94.31,6.43s73.24,1.93,94.3-6.43a54,54,0,0,0,30.41-30.41c8.35-21,6.43-71.05,6.43-94.33S357.1,182.74,348.75,161.67ZM224,338a82,82,0,1,1,82-82A81.9,81.9,0,0,1,224,338Zm85.38-148.3a19.14,19.14,0,1,1,19.13-19.14A19.1,19.1,0,0,1,309.42,189.74ZM400,32H48A48,48,0,0,0,0,80V432a48,48,0,0,0,48,48H400a48,48,0,0,0,48-48V80A48,48,0,0,0,400,32ZM382.88,322c-1.29,25.63-7.14,48.34-25.85,67s-41.4,24.63-67,25.85c-26.41,1.49-105.59,1.49-132,0-25.63-1.29-48.26-7.15-67-25.85s-24.63-41.42-25.85-67c-1.49-26.42-1.49-105.61,0-132,1.29-25.63,7.07-48.34,25.85-67s41.47-24.56,67-25.78c26.41-1.49,105.59-1.49,132,0,25.63,1.29,48.33,7.15,67,25.85s24.63,41.42,25.85,67.05C384.37,216.44,384.37,295.56,382.88,322Z" />
+                    </svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="link">
+                        <!--! Font Awesome Pro 6.0.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
+                        <path
+                            d="M400 32H48C21.5 32 0 53.5 0 80v352c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V80c0-26.5-21.5-48-48-48zm-48.9 158.8c.2 2.8.2 5.7.2 8.5 0 86.7-66 186.6-186.6 186.6-37.2 0-71.7-10.8-100.7-29.4 5.3.6 10.4.8 15.8.8 30.7 0 58.9-10.4 81.4-28-28.8-.6-53-19.5-61.3-45.5 10.1 1.5 19.2 1.5 29.6-1.2-30-6.1-52.5-32.5-52.5-64.4v-.8c8.7 4.9 18.9 7.9 29.6 8.3a65.447 65.447 0 0 1-29.2-54.6c0-12.2 3.2-23.4 8.9-33.1 32.3 39.8 80.8 65.8 135.2 68.6-9.3-44.5 24-80.6 64-80.6 18.9 0 35.9 7.9 47.9 20.7 14.8-2.8 29-8.3 41.6-15.8-4.9 15.2-15.2 28-28.8 36.1 13.2-1.4 26-5.1 37.8-10.2-8.9 13.1-20.1 24.7-32.9 34z" />
+                    </svg>
+                </a>
+
+
+
+            </div>
+        </div>
+        <div class="grid">
+
+
+        </div>
+
+
+    </footer>
+
+
+
+
+</body>
+
+</html>

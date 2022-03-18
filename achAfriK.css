@@ -1,0 +1,119 @@
+body{
+    font-style: normal;
+    font-family: Arial, Helvetica, sans-serif ;
+    font-weight: bolder;
+    /* background-image: url(fond-4.jpg); */
+    background-size: cover;
+    background-position: center;
+
+  
+}
+
+.first_nav{
+    display: flex;
+    justify-content: space-evenly;
+    border-bottom: 1px solid rgb(238, 238, 238);
+    z-index: 100;
+    transition: box-shadow 0.3s ease 0s;
+    box-shadow: 0 -2px 10px 0 rgb(0 0 0 / 15%);
+
+    
+}
+.form{
+    font-family: Helvetica;
+    font-weight: bolder;
+}
+#search{
+    margin-top: 5px;
+    width: 450px;
+    height: 30px;
+    font-size: large;
+    
+}
+
+.zoom{ 
+    width: 200px;
+    height: 50px;
+    transition: transform .30s;
+   
+}
+.zoom:hover{
+    transform: scale(1.5); 
+}
+
+
+#list{
+    display: flex;
+    font-weight:lighter;
+    list-style-type: none;
+    margin-top: 5px;
+    font-family: Lobster;
+}
+#list>li>a:hover{
+    color: maroon;
+}
+#list>li>a{
+    color: gold;
+    text-decoration: none;
+}
+#list>li{
+letter-spacing: 2px;
+margin-left: 10px;
+
+}
+.first_main{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 100px;
+}
+.tête>img{
+    width: 100%;
+    height: 40%;
+}
+button{
+    cursor:cell;
+    background-color: rgb(150, 29, 29);
+    border: none;
+    padding: 6px 7px 6px 7px;
+    font-weight: bold;
+    border-radius: 4px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    box-shadow: 0 -2px 10px 0 rgb(0 0 0 / 15%);
+}
+div{
+    text-align:center;
+    font-family: Arial, Helvetica, sans-serif ;
+    font-weight: bolder;
+    
+}
+.buy{
+    position: relative;
+}
+.dropdown{
+    display:none;
+    list-style-type: none;
+    position: absolute;
+    left: 0px;
+    padding: 0px;
+}
+.dropdown>li{
+    background-color: white;
+    box-shadow: 0 5px 10px 0 #d3cfc9;
+    padding: 12px 16px;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+.dropdown>li>a{
+    color: gray;
+    text-decoration: none;
+}
+.dropdown>li>a:hover{
+    color: wheat;
+}
+nav li:hover .dropdown{
+    display: inline;
+    width: 300px;
+}
