@@ -119,8 +119,8 @@ for (const item of products) {
     
     <img class="image" src=${item.image} style="width:400px">
     <p class="name" style="color:maroon"> ${item.name} </p>
-    <p class="detail" style="color:gold"> ${item.detail}</p>
-    <p class="price" style="color: white"> ${item.price}</p>
+    <p class="detail" style="color:black"> ${item.detail}</p>
+    <p class="price" style="color: black"> ${item.price}</p>
     <button onclick=addtocart(this)>J'achète</button> 
 	<i style="color:red" onclick="like()" class="fa-solid fa-heart"></i>
 
